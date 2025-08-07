@@ -50,10 +50,10 @@ function limparCampo(){
 }
 
 function gerarNumeroAleatorio(){
-    let numeroEscolhido = parseInt(Math.random() * 100 + 1);
+    let numeroEscolhido = parseInt(Math.random() * 10 + 1);
     let quantidadeDeElementosNaLista = listaNumerosSorteados.length;
 
-    if(quantidadeDeElementosNaLista == 100){
+    if(quantidadeDeElementosNaLista == 10){
         listaNumerosSorteados = [];
     }
     
